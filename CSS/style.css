@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 955px;
+    padding-top: 100px;
+    background-image: url('https://www.samsung.com/global/galaxy/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-kv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.title{
+    text-align: center;
+    font-size: 55px;
+}
+.wrapper {
+    width: 720px;
+    height: 648px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 10;
+    background: #ffffff;
+    left: 50%;
+    margin-left: -360px;
+    top: -650px;
+    transition: all ease 0.5s;
+}
+
+.modal__open {
+    top: 70px;
+}
+
+.modal__top {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.modal__top__btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(45deg, rgba(194, 14, 14, 0.46), crimson);
+    color: #000;
+
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.modal__body {
+    padding: 10px 5px;
+}
+
+.modall__footer {
+    display: flex;
+    border-top: 1px solid #000;
+    margin-top: 15px;
+    padding: 10px 5px;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.modall__footer__btn {
+    width: 75px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: blueviolet;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.modall__footer__btn2 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: blueviolet;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.modal__body__info {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.modal__body__img {
+    width: 100%;
+    height: 340px;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+.modal__body__a {
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    color: darkmagenta;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header__btn {
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(-100deg,rgb(8, 8, 250),rgb(236, 31, 236));
+    cursor: pointer;
+    margin-top: 200px;
+    margin-left: -154px;
+}
+
+.modal__shadov {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000096;
+    display: none;
+    z-index: 9;
+
+}
+
+.Modal__shadov__open {
+    display: block;
+    overflow: hidden;
+}
+
+/* sectionsectionsectionsectionsectionsectionsectionsectionsectionsectionsectionsection */
+/* sectionsectionsectionsectionsectionsectionsectionsectionsectionsectionsection */
+/* sectionsectionsectionsectionsectionsectionsectionsectionsection */
+
+.section__hero {
+    width: 416px;
+    height: 964px;
+    margin: 0 auto;
+    position: absolute;
+    background: #ffffff;
+    margin-top: -434px;
+    padding: 10px 5px;
+    left: 0;
+    left: -420px;
+    transition: all ease 0.5s;
+    z-index: 10;
+}
+
+.section__hero__open {
+    left: 0;
+
+}
+
+section {
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+.section__title {
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+}
+
+.section__text {
+    display: block;
+    font-size: 18px;
+    color: #000;
+    width: 390px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.section__btn {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    background-image: linear-gradient(-90deg, red, purple);
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.section__hero__img {
+    width: 100%;
+    height: 440px;
+    border-radius: 9px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.iphone {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    background-image: linear-gradient(-90deg, red, purple);
+    border-radius: 8px;
+    border: none;
+    /* margin: 0 auto; */
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.section__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.section__top__btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background: #ffffff;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.modal__shadovv {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000096;
+    display: none;
+    z-index: 9;
+}
+
+.Modal__shadovv__open {
+    display: block;
+    overflow: hidden;
+}
+
+
+
+
+/* .span {
+    display: block;
+    width: 230px;
+    height: 125px;
+    border: 1px solid #878383;
+    margin: 0 auto;
+    margin-left: 93px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: #fff;
+    position: fixed;
+    margin-top: -160px;
+    margin-left: -325px;
+    z-index: 10;
+ 
+ 
+}
+.span__open {
+    margin-left: 0;
+  
+
+
+}
+.sapn__a {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sapn__a1 {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: #000;
+
+}
+
+.sapn__a2 {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: #000;
+
+} */

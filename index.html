@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="title">About the phone</h1>
+      <div class="wrapper">
+        <div class="modal__top">
+          <h2 class="modal__top__title">Calaxy S23 Series</h2> <button onclick="closeModal()"
+            class="modal__top__btn">X</button>
+        </div>
+        <div class="modal__body">
+          <iframe class="modal__body__img" width="560" height="315"
+            src="https://www.youtube.com/embed/BSYsXVFzmKA?si=yw_cSWqtsDKGqP0s" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+          <p class="modal__body__info">
+            Несколько пользователей Galaxy S23 Ultra пожаловались на дефект экрана смартфона. Кажется, что есть какое-то
+            вздутие возле одного из углов. Теперь Samsung заявила, что это на самом деле не проблема
+          </p>
+          <a target="_blank" title="Full details on S23 Ultra"
+            href="https://www.gsmarena.com/samsung_galaxy_s23_ultra-12024.php" class="modal__body__a">S23 ultra</a>
+
+        </div>
+        <div class="modall__footer">
+          <button class="modall__footer__btn">buy</button>
+          <button class="modall__footer__btn2" onclick="closeModal()">close</button>
+        </div>
+      </div>
+      <div class="modal__shadov" onclick="closeModal()">
+      </div>
+      <button class="header__btn" onclick="openModal()">SAMSUNG</button>
+    </div>
+    <div class="section__hero">
+      <div class="section__top">
+        <h2 class="section__title">Iphone 15</h2>
+        <button class="section__top__btn" onclick="closeModall()">X</button>
+      </div>
+      <iframe width="560" height="315" class="section__hero__img"
+        src="https://www.youtube.com/embed/xqyUdNxWazA?si=mMosISaNKCd7wiSt" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <p class="section__text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nam voluptas, asperiores sed ipsa delectus magni
+        distinctio nemo soluta doloremque eum aliquam sit fugit, corporis a. Aliquid doloremque itaque nesciunt!
+      </p>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle section__btn" type="button" data-bs-toggle="dropdown">
+          Iphone 15 pro max
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <!-- <button class="section__btn" onclick="opennModal()">Iphone 15 pro max</button> -->
+    </div>
+    <button class="iphone" onclick="openModall()">Iphone Series</button>
+    <div class="modal__shadovv" onclick="closeModall()">
+    </header>
+    <!-- <span class="span" onclick="openModall()">
+      <a class="sapn__a" href="#">Active</a>
+      <a class="sapn__a1" href="#">Active</a>
+      <a class="sapn__a2" href="#">Active</a>
+    </span> -->
+
+
+
+
+
+
+    <!-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      Button with data-bs-target
+    </button>
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </body>
+<script src="./JS/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
